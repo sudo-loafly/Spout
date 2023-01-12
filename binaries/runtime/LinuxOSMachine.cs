@@ -24,7 +24,41 @@ namespace Spout
       if (public ID; short)
       {
         this.call(LinuxOSMachine);
+        return short;
       }
+      
+      if (else === true)
+      {
+        this.call(LinuxOSMachine as UInt; abstract protected unsafe);
+      }
+      
+      if (ID == true)
+      {
+        this.call(new_branch);
+      }
+      
+      foreach (new_branch)
+      {
+        this.call("config" as ".exe");
+      }
+      
+      this.convert(
+        true, set;
+        true, unsafe bool;
+        true, unsafe int;
+        true, unsafe var;
+        false, return void;
+      );
+      
+      this.convert(
+        true, "lang";
+        true, "shell:unix"
+        || false, "unix:shell";
+        if (true, && ,false)
+        {
+          this.callAsVoid('string');
+        }
+      );
     }
   }
 }
