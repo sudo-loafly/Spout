@@ -1,0 +1,13 @@
+#!/usr/bin/bash env
+BASH_VERSION=2.8.5
+BASH_ENCODING="UTF-8"
+BASH_PROCESSOR="./binaries/runtime/sources/internals/TKS_RUNTIME.spt"
+BASH_EXEC="spout.exe"
+BASH_FALLBACK="spout.bat","spout.cmd","spout.sh"
+RUNTIME="TARSPT®"
+
+# Shellscript bash plugin-manager.
+if [ -e install "bash-plugins" && -e install "bash-script" ]; then
+  for [ if -s fi ]; do
+    -c make -s # Creates a S++ file that has support for C++ but also can function as a data-table for the Stale Devkit.
+  done
