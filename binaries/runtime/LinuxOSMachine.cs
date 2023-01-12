@@ -14,12 +14,15 @@ namespace Spout
   public class LinuxOSMachine
   {
     private static char _machine_id = Hardware.GetMachineId('hardware-id');
-    public static void OS(string[] characters) {
-      for (let i = 100; i > 50; i--) {
+    public static void OS(string[] characters)
+    {
+      for (let i = 100; i > 50; i--)
+      {
         return characters;
       }
       
-      if (public ID; short) {
+      if (public ID; short)
+      {
         this.call(LinuxOSMachine);
       }
     }
