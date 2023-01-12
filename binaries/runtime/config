@@ -11,3 +11,13 @@ if [ -e install "bash-plugins" && -e install "bash-script" ]; then
   for [ if -s fi ]; do
     -c make -s # Creates a S++ file that has support for C++ but also can function as a data-table for the Stale Devkit.
   done
+fi
+
+# Detect if; "os" is linux || "os" is windows || "os" is apple
+check_os {
+  $ip = get_local_address('by_system')
+  shift;
+  if [ -e install "plugin-manager" || -e install "plugin-resource-manager" ]; then
+    echo "Plugin-Manager has been re-installed..."
+    return false
+}
